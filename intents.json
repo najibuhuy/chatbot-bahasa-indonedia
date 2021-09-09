@@ -1,0 +1,84 @@
+{
+    "intents": [
+      {
+        "tag": "salam",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Apa kabar",
+          "ada orang?",
+          "Halo",
+          "Good day"
+        ],
+        "responses": [
+          "Hey sayang:-)",
+          "Halo, makasi sudah datang",
+          "Ada yang bisa dibantu",
+          "Kamu butuh apa?"
+        ]
+      },
+      {
+        "tag": "perpisahan",
+        "patterns": ["Bye", "dah", "jangan kangen ya"],
+        "responses": [
+          "Nanti kita ketemu lagi ya",
+          "Moga harimu menyenangkan",
+          "Bye."
+        ]
+      },
+      {
+        "tag": "Terimakasih",
+        "patterns": ["Terimakasih", "makasi", "Sangat Terbantu", "Terimakasih banyak"],
+        "responses": ["yoo", "sama-sama", "Senang membantu", "Ok, Ada yang bisa dibantu lagi?"]
+      },
+      {
+        "tag": "barang",
+        "patterns": [
+          "Barang apa aja yang kamu punya?",
+          "kamu jual apa aja?",
+          "Boleh tahu kamu jual apa?"
+        ],
+        "responses": [
+          "kita jual makanan & minuman kak",
+          "kita punya makanan sama minuman kak :)))"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "bayarnya bisa pakai apa?",
+          "Apa bisa saya bayar pakai kartu kredit",
+          "Apa saya hanya bisa membayar dengan cash?",
+          "Apakah menerima pembayaran dompet digital?"
+        ],
+        "responses": [
+          "Kita menerima cash, dan dompet digital aja ya kak",
+          "Kita tidak menerima kartu kredit ya kak"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "Berapa lama saya harus nunggu makanan datang?",
+          "Kapan saya dapat menerima pesanan?",
+          "Seberapa cepat pesanan akan tiba?"
+        ],
+        "responses": [
+          "Sebentar kok, paling lama 30 menit",
+          "Tergantung perjalanan ya kak, kita usahakan paling lama 30 menit"
+        ]
+      },
+      {
+        "tag": "lelucon",
+        "patterns": [
+          "Buat jokes bapak-bapak!",
+          "Bikin aku ketawa dong!",
+          "Tolong buatkan lelucon?"
+        ],
+        "responses": [
+          "Hewan apa yang taat lalu lintas? Unta. Unta-makan keselamatan",
+          "Sayur apa yang bisa nyanyi? Kol. Kolplay."
+        ]
+      }
+    ]
+  }
